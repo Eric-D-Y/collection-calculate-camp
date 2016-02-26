@@ -1,0 +1,714 @@
+
+> @ test /home/eric/project/collection-calculate-camp
+> jasmine-node --verbose specs
+
+
+collect_all_even - 4 ms
+    选出给定区间中所有的偶数 - 4 ms
+
+collect_last_element - 3 ms
+    弹出集合最后一个元素 - 2 ms
+
+get_integer_interval_2 - 1 ms
+    根据给出的两个数字得到自增的偶数区间 - 0 ms
+    根据给出的两个数字得到自减的偶数区间 - 0 ms
+    给定两个相同的偶数得到只含此数字的数组 - 0 ms
+    给定两个相同的偶数得到只含此数字的数组 - 1 ms
+
+get_integer_interval - 0 ms
+    根据给出的两个数字得到一个自增1的数字区间 - 0 ms
+    根据给出的两个数字得到一个自减1的数字区间 - 0 ms
+    给定两个相同的数字得到只含此数字的数组 - 0 ms
+
+get_intersection - 0 ms
+    弹出两个集合的交集 - 0 ms
+
+get_letter_interval - 0 ms
+    根据给出的两个数字得到对应自增的字母区间 - 0 ms
+    根据给出的两个数字得到对应自减的字母区间 - 0 ms
+    给定两个相同的数字得到只含此数字对应字母的数组 - 0 ms
+
+get_letter_interval - 1 ms
+    根据给出的两个数字得到对应自增的字母区间 - 0 ms
+    根据给出的两个数字得到对应自减的字母区间 - 0 ms
+    给定两个相同的数字得到只含此数字对应字母的数组 - 0 ms
+
+get_union - 0 ms
+    弹出两个集合的交集 - 0 ms
+
+choose_even - 0 ms
+    从collection中选出偶数 - 0 ms
+
+choose_multiples_of_three - 0 ms
+    从collection中选出3的倍数 - 0 ms
+
+choose_no_repeat_number - 1 ms
+    从collection中选出不重复的数字 - 0 ms
+
+grouping_count - 0 ms
+    从collection中计算出每个数的个数 - 0 ms
+
+choose_common_elements - 0 ms
+    选出A集合中与B集合中的共有元素 - 0 ms
+
+choose_no_common_elements - 0 ms
+    选出A集合中与B集合中的不共有元素 - 0 ms
+
+choose_divisible_integer - 0 ms
+    选出A集合中可以被B集合中整除的数 - 0 ms
+
+double_to_one - 1 ms
+    把二维数组变成一维数组 - 0 ms
+
+double_to_one - 0 ms
+    把二维数组变成一维数组,消除重复,按照第一次出现的顺序排列最后的输出结果 - 0 ms
+
+map to even - 0 ms
+    将集合A中得元素映射成集合B中的元素 - 0 ms
+
+map_to_four_multiples_add_one - 0 ms
+    四倍加一 - 0 ms
+
+map to three multiples - 0 ms
+    三倍映射 - 0 ms
+
+number_map_to_word_over_26 - 0 ms
+    字母表映射2 - 0 ms
+
+number map to word - 0 ms
+    数字映射为字母 - 0 ms
+
+rank by asc - 0 ms
+    从大到小排序 - 0 ms
+
+rank by desc - 0 ms
+    从小到大排序 - 0 ms
+
+collect_max_number - 1 ms
+    选出给定数字集合元素的最大值 - 1 ms
+
+collect_min_number - 0 ms
+    选出给定数字集合元素的最小值 - 0 ms
+
+compare_collections - 0 ms
+    判断两个集合是否相同 - 0 ms
+
+compute_average - 0 ms
+    计算给定数字集合元素的平均值 - 0 ms
+
+compute_chain_median - 1 ms
+    计算给定链表的中位数 - 1 ms
+
+compute_median - 0 ms
+    计算给定奇数个数字的集合的中位数 - 0 ms
+    计算给定偶数个数字的集合的中位数 - 0 ms
+    计算给定偶数个数字的集合的中位数-2 - 0 ms
+
+compute_elements_sum - 0 ms
+    计算给定集合元素的总和 - 0 ms
+
+find_element_first_subscript - 0 ms
+    找出某元素在给定集合中的第一个下标 - 0 ms
+
+find_element_last_subscript - 0 ms
+    找出某元素在给定集合中的最后一个下标 - 0 ms
+
+find_first_even - 0 ms
+    找出给定集合元素的第一个偶数 - 0 ms
+
+find_last_even - 1 ms
+    找出给定集合元素的最后一个偶数 - 1 ms
+
+split_to_zero - 0 ms
+    根据给定数字无限分割至等于0 - 0 ms
+    根据给定数字无限分割至小于0 - 0 ms
+
+practice-1-1 - 0 ms
+    选出A集合中与B集合中相同的元素 - 0 ms
+
+practice-1-2 - 0 ms
+    选出A集合中与B集合中子数组的元素相同的元素 - 0 ms
+
+practice-1-3 - 0 ms
+    选出A集合中跟B对象中value属性中的元素相同的元素 - 0 ms
+
+practice-1-4 - 0 ms
+    选出A集合中元素的key属性，跟B对象中value属性中的元素相同的元素 - 0 ms
+
+practice-2-1 - 1 ms
+    把A集合中相同的元素统计出数量 - 1 ms
+
+practice-2-2 - 0 ms
+    把A集合中相同的元素统计出数量 - 0 ms
+
+practice-2-3 - 0 ms
+    把A集合中相同的元素统计出数量 - 0 ms
+
+practice-3-1 - 1 ms
+    选出A集合中元素的key属性跟B对象中value属性中的元素相同的元素,把他们的count-1，输出减过之后的新A集合 - 1 ms
+
+practice-3-2 - 0 ms
+    选出A集合中元素的key属性跟B对象中value属性中的元素相同的元素,把他们的count，满3减1，输出减过之后的新A集 - 0 ms
+
+practice-3-3 - 0 ms
+    统计出A集合中相同的元素的个数，形成C集合，C集合中的元素要形如{key:"a", count: 3}，然后选出C集合中的元素的key属性跟B对象中value属性中的元素相同的元素,把他们的count，满3减1，输出减过之后的新C集合 - 0 ms
+
+practice-3-4 - 0 ms
+    统计出A集合中相同的元素的个数，有过有-就把-右边的数字也计算入个数，形成C集合，C集合中的元素要形如{key:"a", count: 3}，然后选出C集合中的元素的key属性跟B对象中value属性中的元素相同的元素,把他们的count，满3减1，输出减过之后的新C集合 - 0 ms
+
+even_to_letter - 0 ms
+    数组的每个偶数映射为字母 - 0 ms
+
+average_to_letter - 0 ms
+    数组的平均数（如果是小数上取整）映射为字母 - 0 ms
+
+hybrid_operation - 0 ms
+    每一个数*3 +2再算总和 - 0 ms
+
+hybrid_operation_to_uneven - 1 ms
+    每一个奇数*3+2 - 1 ms
+
+hybrid_operation_to_uneven - 0 ms
+    每一个奇数*3+5再求总和 - 0 ms
+
+amount_even - 0 ms
+    1-10的偶数算总数 - 0 ms
+
+average_uneven - 0 ms
+    1-10的奇数算平均数 - 0 ms
+
+median_to_letter - 1 ms
+    (20,53)的中位数(如果是小数上取整)对应的字母 - 1 ms
+
+even_asc_odd_desc_spec - 0 ms
+    偶数奇数分两头，偶数部分从小到大，奇数部分从大到小 - 0 ms
+
+one_add_next_multiply_three_spec - 0 ms
+    每一个数与下一个数相加，乘以3,最后一个数不算 - 0 ms
+
+rank_by_two_large_one_small_spec - 0 ms
+    两大一小排序 - 0 ms
+
+calculate_average_spec - 0 ms
+    计算第偶数个元素的平均数 - 0 ms
+
+calculate_median_spec - 0 ms
+    集合中第偶数个元素的个数为奇数时，计算所有第偶数个元素的中位数 - 0 ms
+    集合中第偶数个元素的个数为偶数时，计算所有第偶数个元素的中位数 - 0 ms
+
+even_group_calculate_average - 1 ms
+    首先选出所有第偶数个元素，然后选出其中的偶数，按几位数分组，并计算每组的平均数 - 0 ms
+    首先选出所有第偶数个元素，当不含有偶数时 - 0 ms
+    首先选出所有第偶数个元素，然后选出其中的偶数，按几位数分组，当不含有1位，2位的数字，但含有3位的情况时，计算这组的平均数 - 0 ms
+
+is_exist_element_spec - 0 ms
+    下标为偶数的元素中，存在3 - 0 ms
+    下标为偶数的元素中，不存在4 - 0 ms
+
+single_element_spec - 0 ms
+    第偶数个元素中，选出不重复的元素 - 0 ms
+    第偶数个元素中，选出不重复的元素 - 0 ms
+
+Failures:
+
+  1) collect_last_element 弹出集合最后一个元素
+   Message:
+     Expected undefined to equal 5.
+   Stacktrace:
+     Error: Expected undefined to equal 5.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/collect_last_element_spec.js:12:20)
+
+  2) get_integer_interval_2 根据给出的两个数字得到自增的偶数区间
+   Message:
+     Expected undefined to equal [ 2, 4, 6, 8, 10 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 2, 4, 6, 8, 10 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_integer_interval_2_spec.js:13:20)
+
+  3) get_integer_interval_2 根据给出的两个数字得到自减的偶数区间
+   Message:
+     Expected undefined to equal [ 10, 8, 6, 4, 2 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 10, 8, 6, 4, 2 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_integer_interval_2_spec.js:19:20)
+
+  4) get_integer_interval_2 给定两个相同的偶数得到只含此数字的数组
+   Message:
+     Expected undefined to equal [ 10 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 10 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_integer_interval_2_spec.js:25:20)
+
+  5) get_integer_interval_2 给定两个相同的偶数得到只含此数字的数组
+   Message:
+     Expected undefined to equal [  ].
+   Stacktrace:
+     Error: Expected undefined to equal [  ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_integer_interval_2_spec.js:31:20)
+
+  6) get_integer_interval 根据给出的两个数字得到一个自增1的数字区间
+   Message:
+     Expected undefined to equal [ 1, 2, 3, 4, 5 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 1, 2, 3, 4, 5 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_integer_interval_spec.js:13:20)
+
+  7) get_integer_interval 根据给出的两个数字得到一个自减1的数字区间
+   Message:
+     Expected undefined to equal [ 5, 4, 3, 2, 1 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 5, 4, 3, 2, 1 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_integer_interval_spec.js:19:20)
+
+  8) get_integer_interval 给定两个相同的数字得到只含此数字的数组
+   Message:
+     Expected undefined to equal [ 5 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 5 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_integer_interval_spec.js:25:20)
+
+  9) get_intersection 弹出两个集合的交集
+   Message:
+     Expected undefined to equal [ 5, 28, 19 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 5, 28, 19 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_intersection_spec.js:14:20)
+
+  10) get_letter_interval 根据给出的两个数字得到对应自增的字母区间
+   Message:
+     Expected undefined to equal [ 't', 'u', 'v', 'w', 'x', 'y', 'z', 'aa', 'ab', 'ac', 'ad', 'ae', 'af', 'ag', 'ah', 'ai', 'aj', 'ak', 'al', 'am', 'an', 'ao', 'ap', 'aq', 'ar', 'as', 'at', 'au', 'av', 'aw', 'ax', 'ay', 'az', 'ba' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 't', 'u', 'v', 'w', 'x', 'y', 'z', 'aa', 'ab', 'ac', 'ad', 'ae', 'af', 'ag', 'ah', 'ai', 'aj', 'ak', 'al', 'am', 'an', 'ao', 'ap', 'aq', 'ar', 'as', 'at', 'au', 'av', 'aw', 'ax', 'ay', 'az', 'ba' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_letter_interval_2_spec.js:22:20)
+
+  11) get_letter_interval 根据给出的两个数字得到对应自减的字母区间
+   Message:
+     Expected undefined to equal [ 'ba', 'az', 'ay', 'ax', 'aw', 'av', 'au', 'at', 'as', 'ar', 'aq', 'ap', 'ao', 'an', 'am', 'al', 'ak', 'aj', 'ai', 'ah', 'ag', 'af', 'ae', 'ad', 'ac', 'ab', 'aa', 'z', 'y', 'x', 'w', 'v', 'u', 't' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 'ba', 'az', 'ay', 'ax', 'aw', 'av', 'au', 'at', 'as', 'ar', 'aq', 'ap', 'ao', 'an', 'am', 'al', 'ak', 'aj', 'ai', 'ah', 'ag', 'af', 'ae', 'ad', 'ac', 'ab', 'aa', 'z', 'y', 'x', 'w', 'v', 'u', 't' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_letter_interval_2_spec.js:28:20)
+
+  12) get_letter_interval 给定两个相同的数字得到只含此数字对应字母的数组
+   Message:
+     Expected undefined to equal [ 'ab' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 'ab' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_letter_interval_2_spec.js:34:20)
+
+  13) get_letter_interval 根据给出的两个数字得到对应自增的字母区间
+   Message:
+     Expected undefined to equal [ 'a', 'b', 'c', 'd', 'e' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 'a', 'b', 'c', 'd', 'e' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_letter_interval_spec.js:13:20)
+
+  14) get_letter_interval 根据给出的两个数字得到对应自减的字母区间
+   Message:
+     Expected undefined to equal [ 'e', 'd', 'c', 'b', 'a' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 'e', 'd', 'c', 'b', 'a' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_letter_interval_spec.js:19:20)
+
+  15) get_letter_interval 给定两个相同的数字得到只含此数字对应字母的数组
+   Message:
+     Expected undefined to equal [ 'e' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 'e' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_letter_interval_spec.js:25:20)
+
+  16) get_union 弹出两个集合的交集
+   Message:
+     Expected undefined to equal [ 10, 27, 28, 19, 5, 78, 23 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 10, 27, 28, 19, 5, 78, 23 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/collectionOperator/get_union_spec.js:14:20)
+
+  17) choose_even 从collection中选出偶数
+   Message:
+     Expected undefined to equal [ 0, 2, 4, 6 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 0, 2, 4, 6 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/filter/choose_even_spec.js:12:20)
+
+  18) choose_multiples_of_three 从collection中选出3的倍数
+   Message:
+     Expected undefined to equal [ 0, 3, 6, 9 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 0, 3, 6, 9 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/filter/choose_multiples_of_three_spec.js:13:20)
+
+  19) choose_no_repeat_number 从collection中选出不重复的数字
+   Message:
+     Expected undefined to equal [ 1, 2, 3, 4 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 1, 2, 3, 4 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/filter/choose_no_repeat_number_spec.js:13:20)
+
+  20) grouping_count 从collection中计算出每个数的个数
+   Message:
+     Expected undefined to equal { 1 : 6, 2 : 3, 3 : 4, 4 : 2 }.
+   Stacktrace:
+     Error: Expected undefined to equal { 1 : 6, 2 : 3, 3 : 4, 4 : 2 }.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/filter/grouping_count_spec.js:12:20)
+
+  21) choose_common_elements 选出A集合中与B集合中的共有元素
+   Message:
+     Expected undefined to equal [ 'a', 'e', 'f', 'd' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 'a', 'e', 'f', 'd' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/filter/two_collections_practice_1_spec.js:13:20)
+
+  22) choose_no_common_elements 选出A集合中与B集合中的不共有元素
+   Message:
+     Expected undefined to equal [ 'h', 't', 'c', 'g', 'b' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 'h', 't', 'c', 'g', 'b' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/filter/two_collections_practice_2_spec.js:13:20)
+
+  23) choose_divisible_integer 选出A集合中可以被B集合中整除的数
+   Message:
+     Expected undefined to equal [ 4, 9, 25, 16, 21, 64, 32, 35 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 4, 9, 25, 16, 21, 64, 32, 35 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/filter/two_collections_practice_3_spec.js:13:20)
+
+  24) double_to_one 把二维数组变成一维数组
+   Message:
+     Expected undefined to equal [ 1, 2, 3, 4 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 1, 2, 3, 4 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/flaten/double_dimensional_array_to_one_1_spec.js:13:20)
+
+  25) double_to_one 把二维数组变成一维数组,消除重复,按照第一次出现的顺序排列最后的输出结果
+   Message:
+     Expected undefined to equal [ 1, 2, 3, 5, 4 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 1, 2, 3, 5, 4 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/flaten/double_dimensional_array_to_one_2_spec.js:13:20)
+
+  26) collect_max_number 选出给定数字集合元素的最大值
+   Message:
+     Expected undefined to equal 5.
+   Stacktrace:
+     Error: Expected undefined to equal 5.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/collect_max_number_spec.js:12:20)
+
+  27) collect_min_number 选出给定数字集合元素的最小值
+   Message:
+     Expected undefined to equal 1.
+   Stacktrace:
+     Error: Expected undefined to equal 1.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/collect_min_number_spec.js:12:20)
+
+  28) compare_collections 判断两个集合是否相同
+   Message:
+     Expected undefined to equal true.
+   Stacktrace:
+     Error: Expected undefined to equal true.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/compare_collections_spec.js:13:20)
+
+  29) compute_average 计算给定数字集合元素的平均值
+   Message:
+     Expected undefined to equal 104.5.
+   Stacktrace:
+     Error: Expected undefined to equal 104.5.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/compute_average_spec.js:11:20)
+
+  30) compute_chain_median 计算给定链表的中位数
+   Message:
+     Expected undefined to equal 8.5.
+   Stacktrace:
+     Error: Expected undefined to equal 8.5.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/compute_chain_median_spec.js:12:20)
+
+  31) compute_median 计算给定奇数个数字的集合的中位数
+   Message:
+     Expected undefined to equal 1.
+   Stacktrace:
+     Error: Expected undefined to equal 1.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/compute_median_spec.js:13:20)
+
+  32) compute_median 计算给定偶数个数字的集合的中位数
+   Message:
+     Expected undefined to equal 1.5.
+   Stacktrace:
+     Error: Expected undefined to equal 1.5.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/compute_median_spec.js:19:20)
+
+  33) compute_median 计算给定偶数个数字的集合的中位数-2
+   Message:
+     Expected undefined to equal 8.5.
+   Stacktrace:
+     Error: Expected undefined to equal 8.5.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/compute_median_spec.js:25:20)
+
+  34) compute_elements_sum 计算给定集合元素的总和
+   Message:
+     Expected undefined to equal 15.
+   Stacktrace:
+     Error: Expected undefined to equal 15.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/compute_sum_spec.js:12:20)
+
+  35) find_element_first_subscript 找出某元素在给定集合中的第一个下标
+   Message:
+     Expected undefined to equal 4.
+   Stacktrace:
+     Error: Expected undefined to equal 4.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/find_element_first_subscript_spec.js:13:20)
+
+  36) find_element_last_subscript 找出某元素在给定集合中的最后一个下标
+   Message:
+     Expected undefined to equal 7.
+   Stacktrace:
+     Error: Expected undefined to equal 7.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/find_element_last_subscript_spec.js:13:20)
+
+  37) find_first_even 找出给定集合元素的第一个偶数
+   Message:
+     Expected undefined to equal 20.
+   Stacktrace:
+     Error: Expected undefined to equal 20.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/find_first_even_spec.js:12:20)
+
+  38) find_last_even 找出给定集合元素的最后一个偶数
+   Message:
+     Expected undefined to equal 4.
+   Stacktrace:
+     Error: Expected undefined to equal 4.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/reduce/find_last_even_spec.js:12:20)
+
+  39) split_to_zero 根据给定数字无限分割至等于0
+   Message:
+     Expected undefined to equal [ 0.8, 0.6, 0.4, 0.2, 0 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 0.8, 0.6, 0.4, 0.2, 0 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/ruduce/split_to_zero_spec.js:13:20)
+
+  40) split_to_zero 根据给定数字无限分割至小于0
+   Message:
+     Expected undefined to equal [ 0.7, 0.4, 0.1, -0.2 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 0.7, 0.4, 0.1, -0.2 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/ruduce/split_to_zero_spec.js:19:20)
+
+  41) practice-1-1 选出A集合中与B集合中相同的元素
+   Message:
+     Expected undefined to equal [ 'a', 'e', 'f', 'd' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 'a', 'e', 'f', 'd' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/section_1/practice_1_spec.js:13:20)
+
+  42) practice-1-2 选出A集合中与B集合中子数组的元素相同的元素
+   Message:
+     Expected undefined to equal [ 'a', 'e', 'f', 'd' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 'a', 'e', 'f', 'd' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/section_1/practice_2_spec.js:13:20)
+
+  43) practice-1-3 选出A集合中跟B对象中value属性中的元素相同的元素
+   Message:
+     Expected undefined to equal [ 'a', 'e', 'f', 'd' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 'a', 'e', 'f', 'd' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/section_1/practice_3_spec.js:13:20)
+
+  44) practice-1-4 选出A集合中元素的key属性，跟B对象中value属性中的元素相同的元素
+   Message:
+     Expected undefined to equal [ 'a', 'e', 'f', 'd' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 'a', 'e', 'f', 'd' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/section_1/practice_4_spec.js:15:20)
+
+  45) practice-2-1 把A集合中相同的元素统计出数量
+   Message:
+     Expected undefined to equal [ { key : 'a', count : 3 }, { key : 'e', count : 7 }, { key : 'h', count : 11 }, { key : 't', count : 20 }, { key : 'f', count : 9 }, { key : 'c', count : 8 }, { key : 'g', count : 7 }, { key : 'b', count : 6 }, { key : 'd', count : 5 } ].
+   Stacktrace:
+     Error: Expected undefined to equal [ { key : 'a', count : 3 }, { key : 'e', count : 7 }, { key : 'h', count : 11 }, { key : 't', count : 20 }, { key : 'f', count : 9 }, { key : 'c', count : 8 }, { key : 'g', count : 7 }, { key : 'b', count : 6 }, { key : 'd', count : 5 } ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/section_2/practice_1_spec.js:22:20)
+
+  46) practice-2-2 把A集合中相同的元素统计出数量
+   Message:
+     Expected undefined to equal [ { key : 'a', count : 3 }, { key : 'e', count : 7 }, { key : 'h', count : 11 }, { key : 't', count : 20 }, { key : 'f', count : 9 }, { key : 'c', count : 8 }, { key : 'g', count : 7 }, { key : 'b', count : 6 }, { key : 'd', count : 5 } ].
+   Stacktrace:
+     Error: Expected undefined to equal [ { key : 'a', count : 3 }, { key : 'e', count : 7 }, { key : 'h', count : 11 }, { key : 't', count : 20 }, { key : 'f', count : 9 }, { key : 'c', count : 8 }, { key : 'g', count : 7 }, { key : 'b', count : 6 }, { key : 'd', count : 5 } ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/section_2/practice_2_spec.js:22:20)
+
+  47) practice-2-3 把A集合中相同的元素统计出数量
+   Message:
+     Expected undefined to equal [ { name : 'a', summary : 3 }, { name : 'e', summary : 7 }, { name : 'h', summary : 11 }, { name : 't', summary : 19 }, { name : 'f', summary : 9 }, { name : 'c', summary : 8 }, { name : 'g', summary : 7 }, { name : 'b', summary : 6 }, { name : 'd', summary : 5 } ].
+   Stacktrace:
+     Error: Expected undefined to equal [ { name : 'a', summary : 3 }, { name : 'e', summary : 7 }, { name : 'h', summary : 11 }, { name : 't', summary : 19 }, { name : 'f', summary : 9 }, { name : 'c', summary : 8 }, { name : 'g', summary : 7 }, { name : 'b', summary : 6 }, { name : 'd', summary : 5 } ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/section_2/practice_3_spec.js:22:20)
+
+  48) practice-3-1 选出A集合中元素的key属性跟B对象中value属性中的元素相同的元素,把他们的count-1，输出减过之后的新A集合
+   Message:
+     Expected undefined to equal [ { key : 'a', count : 1 }, { key : 'e', count : 1 }, { key : 'h', count : 2 }, { key : 't', count : 2 }, { key : 'f', count : 1 }, { key : 'c', count : 2 }, { key : 'g', count : 2 }, { key : 'b', count : 2 }, { key : 'd', count : 1 } ].
+   Stacktrace:
+     Error: Expected undefined to equal [ { key : 'a', count : 1 }, { key : 'e', count : 1 }, { key : 'h', count : 2 }, { key : 't', count : 2 }, { key : 'f', count : 1 }, { key : 'c', count : 2 }, { key : 'g', count : 2 }, { key : 'b', count : 2 }, { key : 'd', count : 1 } ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/section_3/practice_1_spec.js:24:20)
+
+  49) practice-3-2 选出A集合中元素的key属性跟B对象中value属性中的元素相同的元素,把他们的count，满3减1，输出减过之后的新A集
+   Message:
+     Expected undefined to equal [ { key : 'a', count : 2 }, { key : 'e', count : 5 }, { key : 'h', count : 11 }, { key : 't', count : 20 }, { key : 'f', count : 6 }, { key : 'c', count : 8 }, { key : 'g', count : 7 }, { key : 'b', count : 6 }, { key : 'd', count : 4 } ].
+   Stacktrace:
+     Error: Expected undefined to equal [ { key : 'a', count : 2 }, { key : 'e', count : 5 }, { key : 'h', count : 11 }, { key : 't', count : 20 }, { key : 'f', count : 6 }, { key : 'c', count : 8 }, { key : 'g', count : 7 }, { key : 'b', count : 6 }, { key : 'd', count : 4 } ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/section_3/practice_2_spec.js:24:20)
+
+  50) practice-3-3 统计出A集合中相同的元素的个数，形成C集合，C集合中的元素要形如{key:"a", count: 3}，然后选出C集合中的元素的key属性跟B对象中value属性中的元素相同的元素,把他们的count，满3减1，输出减过之后的新C集合
+   Message:
+     Expected undefined to equal [ { key : 'a', count : 2 }, { key : 'e', count : 5 }, { key : 'h', count : 11 }, { key : 't', count : 20 }, { key : 'f', count : 6 }, { key : 'c', count : 8 }, { key : 'g', count : 7 }, { key : 'b', count : 6 }, { key : 'd', count : 4 } ].
+   Stacktrace:
+     Error: Expected undefined to equal [ { key : 'a', count : 2 }, { key : 'e', count : 5 }, { key : 'h', count : 11 }, { key : 't', count : 20 }, { key : 'f', count : 6 }, { key : 'c', count : 8 }, { key : 'g', count : 7 }, { key : 'b', count : 6 }, { key : 'd', count : 4 } ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/section_3/practice_3_spec.js:25:20)
+
+  51) practice-3-4 统计出A集合中相同的元素的个数，有过有-就把-右边的数字也计算入个数，形成C集合，C集合中的元素要形如{key:"a", count: 3}，然后选出C集合中的元素的key属性跟B对象中value属性中的元素相同的元素,把他们的count，满3减1，输出减过之后的新C集合
+   Message:
+     Expected undefined to equal [ { key : 'a', count : 2 }, { key : 'e', count : 5 }, { key : 'h', count : 11 }, { key : 't', count : 20 }, { key : 'f', count : 6 }, { key : 'c', count : 8 }, { key : 'g', count : 7 }, { key : 'b', count : 6 }, { key : 'd', count : 4 } ].
+   Stacktrace:
+     Error: Expected undefined to equal [ { key : 'a', count : 2 }, { key : 'e', count : 5 }, { key : 'h', count : 11 }, { key : 't', count : 20 }, { key : 'f', count : 6 }, { key : 'c', count : 8 }, { key : 'g', count : 7 }, { key : 'b', count : 6 }, { key : 'd', count : 4 } ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/section_3/practice_4_spec.js:25:20)
+
+  52) even_to_letter 数组的每个偶数映射为字母
+   Message:
+     Expected undefined to equal [ 'b', 'd', 'f', 'h', 'j' ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 'b', 'd', 'f', 'h', 'j' ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/collection_operation/letter_mapping_1_spec.js:13:20)
+
+  53) average_to_letter 数组的平均数（如果是小数上取整）映射为字母
+   Message:
+     Expected undefined to equal 'f'.
+   Stacktrace:
+     Error: Expected undefined to equal 'f'.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/collection_operation/letter_mapping_2_spec.js:13:20)
+
+  54) hybrid_operation 每一个数*3 +2再算总和
+   Message:
+     Expected undefined to equal 390.
+   Stacktrace:
+     Error: Expected undefined to equal 390.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/collection_operation/practice_1_spec.js:13:20)
+
+  55) hybrid_operation_to_uneven 每一个奇数*3+2
+   Message:
+     Expected undefined to equal [ 5, 17, 23, 35, 107, 203 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 5, 17, 23, 35, 107, 203 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/collection_operation/practice_2_spec.js:13:20)
+
+  56) hybrid_operation_to_uneven 每一个奇数*3+5再求总和
+   Message:
+     Expected undefined to equal 408.
+   Stacktrace:
+     Error: Expected undefined to equal 408.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/collection_operation/practice_3_spec.js:13:20)
+
+  57) amount_even 1-10的偶数算总数
+   Message:
+     Expected undefined to equal 30.
+   Stacktrace:
+     Error: Expected undefined to equal 30.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/interval_operation/amount_even_spec.js:13:20)
+
+  58) average_uneven 1-10的奇数算平均数
+   Message:
+     Expected undefined to equal 5.
+   Stacktrace:
+     Error: Expected undefined to equal 5.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/interval_operation/average_uneven_spec.js:13:20)
+
+  59) median_to_letter (20,53)的中位数(如果是小数上取整)对应的字母
+   Message:
+     Expected undefined to equal 'ak'.
+   Stacktrace:
+     Error: Expected undefined to equal 'ak'.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/interval_operation/median_to_letter_spec.js:16:20)
+
+  60) even_asc_odd_desc_spec 偶数奇数分两头，偶数部分从小到大，奇数部分从大到小
+   Message:
+     Expected undefined to equal [ 2, 4, 12, 32, 46, 54, 68, 67, 53, 45, 11 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 2, 4, 12, 32, 46, 54, 68, 67, 53, 45, 11 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/own_elements_operation/even_asc_odd_desc_spec.js:10:20)
+
+  61) rank_by_two_large_one_small_spec 两大一小排序
+   Message:
+     Expected undefined to equal [ 2, 3, 1, 6, 8, 4, 9, 10 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 2, 3, 1, 6, 8, 4, 9, 10 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/own_elements_operation/rank_by_two_large_one_small_spec.js:9:20)
+
+  62) calculate_average_spec 计算第偶数个元素的平均数
+   Message:
+     Expected undefined to equal 4.
+   Stacktrace:
+     Error: Expected undefined to equal 4.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/own_elements_operation/subscript_is_even/calculate_average_spec.js:9:20)
+
+  63) calculate_median_spec 集合中第偶数个元素的个数为奇数时，计算所有第偶数个元素的中位数
+   Message:
+     Expected undefined to equal 4.
+   Stacktrace:
+     Error: Expected undefined to equal 4.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/own_elements_operation/subscript_is_even/calculate_median_spec.js:10:20)
+
+  64) calculate_median_spec 集合中第偶数个元素的个数为偶数时，计算所有第偶数个元素的中位数
+   Message:
+     Expected undefined to equal 5.
+   Stacktrace:
+     Error: Expected undefined to equal 5.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/own_elements_operation/subscript_is_even/calculate_median_spec.js:15:20)
+
+  65) even_group_calculate_average 首先选出所有第偶数个元素，然后选出其中的偶数，按几位数分组，并计算每组的平均数
+   Message:
+     Expected undefined to equal [ 4, 56, 556 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 4, 56, 556 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/own_elements_operation/subscript_is_even/even_group_calculate_average_spec.js:11:20)
+
+  66) even_group_calculate_average 首先选出所有第偶数个元素，当不含有偶数时
+   Message:
+     Expected undefined to equal [ 0 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 0 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/own_elements_operation/subscript_is_even/even_group_calculate_average_spec.js:16:20)
+
+  67) even_group_calculate_average 首先选出所有第偶数个元素，然后选出其中的偶数，按几位数分组，当不含有1位，2位的数字，但含有3位的情况时，计算这组的平均数
+   Message:
+     Expected undefined to equal [ 218 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 218 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/own_elements_operation/subscript_is_even/even_group_calculate_average_spec.js:21:20)
+
+  68) is_exist_element_spec 下标为偶数的元素中，存在3
+   Message:
+     Expected undefined to equal true.
+   Stacktrace:
+     Error: Expected undefined to equal true.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/own_elements_operation/subscript_is_even/is_exist_element_spec.js:9:20)
+
+  69) is_exist_element_spec 下标为偶数的元素中，不存在4
+   Message:
+     Expected undefined to equal false.
+   Stacktrace:
+     Error: Expected undefined to equal false.
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/own_elements_operation/subscript_is_even/is_exist_element_spec.js:14:20)
+
+  70) single_element_spec 第偶数个元素中，选出不重复的元素
+   Message:
+     Expected undefined to equal [ 6, 43, 5 ].
+   Stacktrace:
+     Error: Expected undefined to equal [ 6, 43, 5 ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/own_elements_operation/subscript_is_even/single_element_spec.js:11:20)
+
+  71) single_element_spec 第偶数个元素中，选出不重复的元素
+   Message:
+     Expected undefined to equal [  ].
+   Stacktrace:
+     Error: Expected undefined to equal [  ].
+    at null.<anonymous> (/home/eric/project/collection-calculate-camp/specs/superposition_operation/own_elements_operation/subscript_is_even/single_element_spec.js:16:20)
+
+Finished in 0.043 seconds
+80 tests, 80 assertions, 71 failures, 0 skipped
+
+
